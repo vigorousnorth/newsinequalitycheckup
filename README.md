@@ -1,1 +1,1 @@
-# newsinequalitycheckup
+# Our project
