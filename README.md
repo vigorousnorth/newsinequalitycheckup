@@ -4,11 +4,13 @@
 
 The problem: Not all communities receive equal coverage, and what little coverage they do get can be skewed towards "crimes and fires".
 
+Over time, this erodes community trust and confidence in the media’s accountability, transparency, and accuracy.
+
 How can we shed light on the unequal ways news organizations cover different communities?
 
 This project begins to build out ways of investigating and parsing newspaper coverage by geographic area, with the goal of exposing subtle bias in the areas of coverage.
 
-The title of this section comes from a quick text analysis of Gothamist coverage of the Marine Park and Williamsburg neighbhorhoods in Brooklyn. Those two words were the 2nd and 3rd most frequently used words in headlines about each neighborhood ("man" was the first).
+The title of this section comes from a quick text analysis of Gothamist coverage of the Marine Park and Williamsburg neighborhoods in Brooklyn. Those two words were the 2nd and 3rd most frequently used words in headlines about each neighborhood ("man" was the first in both).
 
 
 Guiding questions
@@ -35,13 +37,13 @@ Process notes/documentation
 
 ###Getting the data
 * Web scraper + HTML parser
-	Various tools would work here: Python + Beautifulsoup, R
+	- Various tools would work here: Python + Beautifulsoup, R
 
 ###Outcomes
 * There were no clear correlations
 	The 2 places (Maine/Brooklyn) were really different cases that looked different
 	* Maine: pretty even per capita coverage across household income levels (so coverage was more or less proportionate with population)
-	* Brooklyn: extremely uneven coverage, not related to population
+	* Brooklyn: extremely uneven coverage, not related to population (Marine Park has more people than Williamsburg, but only gets a fraction of the coverage)
 
 * Context is important in interpreting the data
 	The areas in Maine that received disproportionate coverage (NAMES?) had specific reasons why (ongoing scandal increased coverage, major state employer based in a smaller town)
