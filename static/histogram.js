@@ -26,7 +26,7 @@ d3.csv("https://raw.githubusercontent.com/vigorousnorth/newsinequalitycheckup/ma
   var keys = data.columns.slice(1);
 
   x0.rangeRound([0, width])
-      .domain(data.sort(function(a,b) { return b.Population - a.Population; }).map(function(d) { if (d.Stories > 0) { return d.Town; } }));
+      .domain(data.sort(function(a,b) { return b.Stories - a.Stories; }).map(function(d) { if (d.Stories > 0) { return d.Town; } }));
 
   var y = d3.scaleLinear()
     .range([height, 0])
