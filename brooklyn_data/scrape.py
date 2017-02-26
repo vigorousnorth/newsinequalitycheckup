@@ -20,7 +20,7 @@ def get_gothamist_marinepark_urls():
             new_row = {'title': title, 'url': url}
             articles.append(new_row)
 
-    with open('scraped_data/gothamist_marinepark.csv', 'w') as csvfile:
+    with open('gothamist_marinepark.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['title', 'url'])
         writer.writeheader()
         writer.writerows(articles)
@@ -41,7 +41,7 @@ def get_gothamist_williamsburg_urls():
             new_row = {'title': title, 'url': url}
             articles.append(new_row)
 
-    with open('scraped_data/gothamist_williamsburg.csv', 'w') as csvfile:
+    with open('gothamist_williamsburg.csv', 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=['title', 'url'])
         writer.writeheader()
         writer.writerows(articles)
@@ -51,5 +51,5 @@ def get_gothamist_williamsburg_urls():
 
 
 if __name__ == '__main__':
-    get_gothamist_marinepark_urls
+    get_gothamist_marinepark_urls()
     get_gothamist_williamsburg_urls()
