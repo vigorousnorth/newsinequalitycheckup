@@ -39,7 +39,7 @@
           <br/>
           <h2>Example #1: Williamsburg vs Marine Park</h2>
           <p>
-            When most people think of Brooklyn, Williamsburg, the hipster capital of the world, is one of the first things to come to mind. However, very few people have heard of Marine Park, an old Italian and Irish neighborhood in South Brooklyn. Marine Park technically has more people than Williamsburg (170K versus 127K).
+            When most people think of Brooklyn, Williamsburg - the hipster capital of the world - is one of the first things to come to mind. However, very few people have heard of Marine Park, an old Italian and Irish neighborhood in South Brooklyn. Marine Park technically has more people than Williamsburg (170K versus 127K).
           </p>
           <h3>Disparities in amount of coverage</h3>
           <p>
@@ -67,10 +67,27 @@
           <h2>Example #2: Towns in Southern Maine</h2>
 
 
-          <iframe src="maine_data/histogram.html" height></iframe>
-          <iframe src="maine_data/scatterplots.html"></iframe>
+          <iframe src="maine_data/histogram.html" height="200"></iframe>
 
-          <p>[stuff here]</p>
+          <h3>Stories per capita</h3>
+          <p>
+            By normalizing the stories with population, we can see the places that get disproportionate coverage (the towns on the right side of the scatterplot). Another interesting part of the graph is how many towns have no coverage at all - the cluster at the left edge of the scatterplot.
+          </p>
+          <iframe src="maine_data/scatterplot_pop.html" height="400"></iframe>
+
+          <p>
+            We can also see if stories per capita is correlated with other factors. Here, it looks like there isn't much of a relationship between median income and coverage (yay!). It looks like towns that lean towards supporting Trump are less likely to be covered (though this could partly be explained by the relationship between Trump support & population).
+          </p>
+
+          <div class="row">
+            <div class="col-xs-6">
+              <iframe src="maine_data/scatterplot_income.html" height="400"></iframe>
+            </div>
+            <div class="col-xs-6">
+              <iframe src="maine_data/scatterplot_election.html" height="400"></iframe>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
