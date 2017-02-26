@@ -9,7 +9,7 @@ var incomesvg = d3.select("svg#incomechart"),
 var z = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
-d3.csv("data_by_town.csv", function(d, i, columns) {
+d3.csv("https://raw.githubusercontent.com/vigorousnorth/newsinequalitycheckup/master/static/data_by_town.csv", function(d, i, columns) {
   for (var i = 1, n = columns.length; i < n; ++i) d[columns[i]] = +d[columns[i]];
   return d;
 }, function(error, data) {
