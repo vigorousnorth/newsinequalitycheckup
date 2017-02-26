@@ -1,6 +1,10 @@
 svg {width: 100%;}
 svg text {font-family: sans-serif; font-size: 10px;}
-svg circle {fill: none; stroke-width: 2px; stroke: #e00;}
+text.outlier {visibility: visible;}
+text.hidden {visibility: hidden;}
+g.active text {visibility: visible;}
+g.town {cursor: pointer;}
+svg circle {fill: rgba(250,0,0,0.1); stroke-width: 2px; stroke: #e00;}
 @media (max-width: 600px) {
 	svg text {font-size: 6px;}
 }

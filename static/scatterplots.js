@@ -46,13 +46,17 @@ $(function() {
       var towns = g.append("g")
         .selectAll("g")
         .data(data)
-        .enter().append("g");
+        .enter().append("g")
+          .attr('class','town')
+          .on("mouseover", function() { d3.select(this).classed("active", true ) })       // classed("active",boolean) not working
+          .on("mouseout",  function() { d3.select(this).classed("active", false) });
 
       towns.append("circle")
           .attr("r",5)
           .attr("transform", function(d) { return "translate(" + x(d[keys[0]]) + "," + y(d[keys[1]]) + ")"; });
         
       towns.append("text")
+          .attr('class', function(d) { return (d[keys[0]] > 0.006) ? 'outlier' : 'hidden'; })
           .attr("transform", function(d) { return "translate(" + x(d[keys[0]]) + "," + y(d[keys[1]]) + ")"; })
           .attr("dx", 6)
           .text(function(d) {return d.Town; });
@@ -85,7 +89,7 @@ $(function() {
           .call(d3.axisLeft(y).ticks(null))
 
       g.append("text")
-          .attr("transform","translate(" +(width - 2)+ "," + (height-2) + ")")
+          .attr("transform","translate(" +(width - 2)+ "," + (height + margin.bottom/2) + ")")
           .attr("font-weight", "bold")
           .attr("text-anchor", "end")
           .text(keys[0]);
