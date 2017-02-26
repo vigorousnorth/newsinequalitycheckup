@@ -1,6 +1,6 @@
 #Mapping news inequality
 
-##Marine Park is “old, arrested” -- Williamsburg is “new, bar”
+###Marine Park is “old, arrested” -- Williamsburg is “new, bar”
 
 The problem: Not all communities receive equal coverage, and what little coverage they do get can be skewed towards "crimes and fires".
 
@@ -8,16 +8,18 @@ How can we shed light on the unequal ways news organizations cover different com
 
 This project begins to build out ways of investigating and parsing newspaper coverage by geographic area, with the goal of exposing subtle bias in the areas of coverage.
 
-------------------------------------------------
-Guiding questions
+The title of this section comes from a quick text analysis of Gothamist coverage of the Marine Park and Williamsburg neighbhorhoods in Brooklyn. Those two words were the 2nd and 3rd most frequently used words in headlines about each neighborhood ("man" was the first).
 
+
+Guiding questions
+------------------------------------------------
 * Spatial inequality in news coverage -- are communities getting covered equally? Are certain communities being overlooked?
 * Transparency/accountability by news orgs -- how can news orgs audit their coverage for gaps?
 
 
 Solution: A set of tools to analyze equality in coverage
 --------------------------------------------------------
-Using a measure of "artciples per capita" and some basic word frequency analysis, we visualized the most attention-grabbing places, and the different types of words used in headlines about each.
+Using a measure of "articles per capita" and some basic word frequency analysis, we visualized the most attention-grabbing places, and the different types of words used in headlines about each.
 
 We'd like to develop a tool for newsrooms and civic advocates to assess local news coverage and promote more equitable distribution of journalism resources.
 
