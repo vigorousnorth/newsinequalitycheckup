@@ -14,8 +14,8 @@ $(function() {
   width = $('div#histogram').innerWidth() - margin.left - margin.right,
   height = $('div#histogram').innerHeight() - margin.top - margin.bottom,
   var populationsvg = d3.select('div#histogram').append('svg')
-    .attr('width', width + margin.left + margin.right)
-    .attr('height',height + margin.top + margin.bottom);
+    .attr('width', width )
+    .attr('height',height );
 
 
 d3.csv("https://raw.githubusercontent.com/vigorousnorth/newsinequalitycheckup/master/static/data_by_town.csv", function(d, i, columns) {
