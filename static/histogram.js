@@ -12,7 +12,7 @@ var  width, height, aspect, populationsvg;
 $(function() {
 
   width = $('div#histogram').innerWidth() - margin.left - margin.right,
-  height = width / 2;
+  height = 200;
   var populationsvg = d3.select('div#histogram').append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height',height + margin.top + margin.bottom);

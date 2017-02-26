@@ -10,7 +10,7 @@ var z = d3.scaleOrdinal()
 $(function() {
 
   width = $('div.scatterplot').innerWidth() - margin.left - margin.right,
-  height = width / 2;
+  height = 400;
   var svg = d3.select('div.scatterplot').append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height',height + margin.top + margin.bottom);
