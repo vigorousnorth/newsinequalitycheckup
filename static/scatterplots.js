@@ -2,7 +2,7 @@
 var avg = 0.003075333;
 
 var width, height,
-    margin = {top: 18, right: 20, bottom: 60, left: 40};
+    margin = {top: 20, right: 20, bottom: 40, left: 40};
     
 var z = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
@@ -89,7 +89,7 @@ $(function() {
           .call(d3.axisLeft(y).ticks(null))
 
       g.append("text")
-          .attr("transform","translate(" +(width - 2)+ "," + (height + margin.bottom/2) + ")")
+          .attr("transform","translate(" +(width - 2)+ "," + (height + margin.bottom - 8) + ")")
           .attr("font-weight", "bold")
           .attr("text-anchor", "end")
           .text(keys[0]);
