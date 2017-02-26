@@ -2,13 +2,15 @@
 
 ##How even legitimate news sources can paint incomplete and misleading pictures of places they cover.
 
-[View the website](http://christianmilneil.com/newsinequalitycheckup/) to see our visual analysis of 2 cases studies: Williamsburg vs. Marine Park, Brooklyn and Southern Maine.
-
 The problem: Not all communities receive equal coverage, and what little coverage they do get can be skewed towards "crimes and fires".
 
 Over time, this erodes community trust and confidence in the media’s accountability, transparency, and accuracy.
 
 This project begins to build out ways of investigating, parsing, and visualizing newspaper coverage by geographic area, with the goal of exposing subtle bias in the areas of coverage.
+
+[View the website](http://christianmilneil.com/newsinequalitycheckup/) to see our visual analysis of 2 case studies: 
+* How local blogs cover Williamsburg, Brooklyn vs. Marine Park, Brooklyn
+* How a Portland newspaper covers Southern Maine
 
 
 Guiding questions
