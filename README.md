@@ -1,16 +1,14 @@
 #Mapping news inequality
 
-###Marine Park is “old, arrested” -- Williamsburg is “new, bar”
+##How even legitimate news sources can paint incomplete and misleading pictures of places they cover.
+
+[View the website](http://christianmilneil.com/newsinequalitycheckup/) to see our visual analysis of 2 cases studies: Williamsburg vs. Marine Park, Brooklyn and Southern Maine.
 
 The problem: Not all communities receive equal coverage, and what little coverage they do get can be skewed towards "crimes and fires".
 
 Over time, this erodes community trust and confidence in the media’s accountability, transparency, and accuracy.
 
-How can we shed light on the unequal ways news organizations cover different communities?
-
-This project begins to build out ways of investigating and parsing newspaper coverage by geographic area, with the goal of exposing subtle bias in the areas of coverage.
-
-The title of this section comes from a quick text analysis of Gothamist coverage of the Marine Park and Williamsburg neighborhoods in Brooklyn. Those two words were the 2nd and 3rd most frequently used words in headlines about each neighborhood ("man" was the first in both).
+This project begins to build out ways of investigating, parsing, and visualizing newspaper coverage by geographic area, with the goal of exposing subtle bias in the areas of coverage.
 
 
 Guiding questions
