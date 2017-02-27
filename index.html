@@ -84,30 +84,30 @@
           <h2>Example #2: Towns in Southern Maine</h2>
 
           <p>
-            We used data gathered from the Portland Press Herald.
+            We used data gathered from the Portland Press Herald, which recently started using WordPress tags on its local news stories.
           </p>
 
           <p>
-            This is a simple tally of stories by location. Portland has the most coverage by far, and then there is a long tail.
+            This is a simple tally of the dataset's approximately 1500 tagged stories by municipality in Cumberland and York counties – the newspaper's primary coverage area. Portland has the most stories by far, and then there is a long tail.
           </p>
           <iframe src="maine_data/histogram.html" height="220"></iframe>
 
           <h3>Stories per capita</h3>
           <p>
-            By normalizing the stories with population, we can see the places that get disproportionate coverage (the towns on the right side of the scatterplot). Another interesting part of the graph is how many towns have no coverage at all - the cluster at the left edge of the scatterplot.
+            By normalizing the stories with population, we can see the places that get disproportionate coverage (the towns on the right side of the scatterplot). The graph shows us that many sparsely-populated towns get no coverage at all - the cluster at the left edge of the scatterplot. On the other side, we see some outliers that have been getting a lot of coverage, like Ogunquit, a tiny coastal town that's recently been embroiled in <a href="http://www.pressherald.com/2017/02/05/ogunquit-awash-in-intrigue-as-manager-fights-allegations/" target="_blank">corruption allegations</a>.
           </p>
           <iframe src="maine_data/scatterplot_pop.html" height="400"></iframe>
 
           <p>
-            We can also see if stories per capita is correlated with other factors. Here, it looks like there isn't much of a relationship between median income and coverage (yay!). It looks like towns that lean towards supporting Trump are less likely to be covered (though this could partly be explained by the relationship between Trump support & population).
+            We can also see if stories per capita are correlated with other demographic factors. Here, it looks like there isn't much of a relationship between median income and coverage (yay!). But there also appears to be a negative relationship between a town's level of support for Donald Trump and the amount of news coverage they get. There are many confounding factors at play here, of course, but this could be an interesting topic for further research with a bigger dataset and a more sophisticated statistical model. 
           </p>
 
           <div class="row">
             <div class="col-xs-6">
-              <iframe src="maine_data/scatterplot_income.html" height="200"></iframe>
+              <iframe src="maine_data/scatterplot_income.html" height="240"></iframe>
             </div>
             <div class="col-xs-6">
-              <iframe src="maine_data/scatterplot_election.html" height="200"></iframe>
+              <iframe src="maine_data/scatterplot_election.html" height="240"></iframe>
             </div>
           </div>
 
